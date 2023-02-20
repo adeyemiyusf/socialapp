@@ -47,7 +47,7 @@ const CreateForm = () => {
             
             <input placeholder="title" {...register("title")}/>
             <p style={{color: 'red'}}>{ errors.title?.message }</p>
-            <input placeholder="Fullname" {...register("fullName")}/>
+            <input placeholder="Full name" {...register("fullName")}/>
             <textarea placeholder="description" {...register("description")}/>
             <input type= "submit" className="submitForm" />
             </form>
